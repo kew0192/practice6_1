@@ -1,7 +1,7 @@
 pipeline{
     agent any
     parameters{
-        string(name: 'FILE_NAME', defaultValue: 'app', description: 'Имя исполняемого файла')
+        string(name: 'FILE_NAME', defaultValue: 'app12', description: 'Имя исполняемого файла')
         booleanParam(name: 'RUN_UNIT', defaultValue: true, description: 'Запускать unit тесты')
         booleanParam(name: 'RUN_INTEGRATION', defaultValue: true, description: 'Запускать integration тесты')
     }
